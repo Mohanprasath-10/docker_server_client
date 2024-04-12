@@ -42,14 +42,14 @@
 
 3. **Client Side:**
    ```bash
-   docker run -it --name client-instance mohanprasath21/myclient ./client <server_ip_address>
+   docker run -it --name client-instance mohanprasath21/myclient ./client 172.17.0.2
    ```
 
 ### Multiple Clients
 
 To run multiple client instances, change the container name for each client:
 ```bash
-docker run -it --name client-instance1 mohanprasath21/myclient ./client <server_ip_address>
+docker run -it --name client-instance1 mohanprasath21/myclient ./client 172.17.0.2
 ```
 
 Replace `<server_ip_address>` with the actual IP address of the server.
