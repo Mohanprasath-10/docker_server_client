@@ -1,4 +1,4 @@
-# docker_server_client
+# Docker_server_client
 ## Usage Instructions
 
 ### Local Compilation
