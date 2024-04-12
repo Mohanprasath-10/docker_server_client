@@ -52,7 +52,5 @@ To run multiple client instances, change the container name for each client:
 docker run -it --name client-instance1 mohanprasath21/myclient ./client 172.17.0.2
 ```
 
-Replace `<server_ip_address>` with the actual IP address of the server.
-
 ## Notes
 - Ensure that the server is running and accessible before starting the client.
